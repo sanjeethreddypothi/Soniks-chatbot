@@ -1,0 +1,36 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "about",
+         "patterns": ["what does your company do", "where are you situated?", "which city is the company in", "about the company"],
+         "responses": ["We are team of experts,working from different locations, embarked on a journey to provide consulting services to amplify our client's productivity in a cost effective way."]
+
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "services",
+         "patterns": ["what is your company specialized in?", "what solutions do you have?","what services do you provide", "What kind of services are available", "what do you work with","what does your company do","what kind of work does your comapany do?"],
+         "responses": ["We expertise in ERP consulting, Cloud Services, Database consulting and Web & Mobile Development"]
+        },
+        
+        {"tag": "contact",
+        "patterns": ["How to contact you?", "phone number", "please give your email ID","provide your mail ID","i want to get in touch with you","how do I call you?","I want to talk to" ,"Please help me with","I need help with "],
+        "responses": ["Please get in touch with us by dropping a mail at info@soniks.net"]
+        }
+       
+       
+   ]
+}
